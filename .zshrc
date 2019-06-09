@@ -118,7 +118,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=3'
 # export ZSH_AUTOSUGGEST_CLEAR_WIDGETS=()
 # export ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS=()
 
-if test -n "command -v thefuck"; then
+if test -n "$(command -v thefuck)"; then
   eval $(thefuck --alias)
 fi
 
