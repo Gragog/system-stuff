@@ -1,0 +1,4 @@
+if [ -f ~/.ps1 ]; then
+    . ~/.ps1
+fi
+
