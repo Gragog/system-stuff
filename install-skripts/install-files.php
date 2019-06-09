@@ -52,4 +52,5 @@ foreach ($mapping as $from => $to) {
     echo "\tdone" . PHP_EOL;
 }
 
+echo PHP_EOL . 'You still have to make sure that your ".bashrc" sources ".bashrc_ubuntu"' . PHP_EOL;
 echo PHP_EOL;
