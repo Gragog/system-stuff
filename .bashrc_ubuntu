@@ -120,3 +120,6 @@ if [ -n "$(command -v thefuck)" ]; then
   eval $(thefuck --alias)
 fi
 
+if [ -f ~/.bashrc_general ]; then
+  . ~/.bashrc_general
+fi
