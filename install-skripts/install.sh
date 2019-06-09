@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "not finished, use php scripts!";
+exit;
+
 echo -e "Are you sure? (y/n)\nYou should manually make a backup before!"
 read confirmInstallation
 if [ "${confirmInstallation}" != "y" ]; then
