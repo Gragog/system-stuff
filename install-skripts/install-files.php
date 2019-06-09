@@ -20,6 +20,7 @@ if ($argv[1] === 'yes') {
         $root . '.bashrc_ubuntu'  => $home . '.bashrc_ubuntu',
         $root . '.ps1'            => $home . '.ps1',
         $root . '.zshrc'          => $home . '.zshrc',
+        $root . 'dash-to-panel.ini' => $home . 'dash-to-panel.ini',
     ];
 }
 
