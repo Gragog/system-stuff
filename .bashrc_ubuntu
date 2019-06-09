@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -n "command -v thefuck" ]; then
+if [ -n "$(command -v thefuck)" ]; then
   eval $(thefuck --alias)
 fi
 
