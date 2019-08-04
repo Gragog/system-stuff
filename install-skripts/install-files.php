@@ -22,7 +22,6 @@ if ($argv[1] === 'yes') {
     $mapping = [
         $root . '.bash_aliases'     => $ssRoot . '.bash_aliases',
         $root . '.bashrc_general'   => $ssRoot . '.bashrc_general',
-        $root . '.bashrc_ubuntu'    => $ssRoot . '.bashrc_ubuntu',
         $root . '.ps1'              => $ssRoot . '.ps1',
         $root . '.zshrc'            => $ssRoot . '.zshrc',
         $root . 'dash-to-panel.ini' => $ssRoot . 'dash-to-panel.ini',
