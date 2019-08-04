@@ -1,8 +1,8 @@
-if [ -f ~/.bash_aliases ]; then
-  . ~/.bash_aliases
+if [ -f ~/system-stuff/.bash_aliases ]; then
+  . ~/system-stuff/.bash_aliases
 fi
 
-if [ -f ~/.ps1 ]; then
-    . ~/.ps1
+if [ -f ~/system-stuff/.ps1 ]; then
+    . ~/system-stuff/.ps1
 fi
 
